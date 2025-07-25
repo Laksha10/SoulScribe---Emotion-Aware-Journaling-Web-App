@@ -1,0 +1,44 @@
+.
+├── app.py
+├── data
+│   └── soulscribe_final_cleaned.csv
+├── db
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── config.py
+│   ├── connection.py
+│   └── models.py
+├── folder_structure.txt
+├── models
+│   ├── __pycache__
+│   ├── label_list.json
+│   ├── model_weights.pt
+│   ├── soulscribe_v8.py
+│   └── thresholds.json
+├── README.md
+├── requirements_old.txt
+├── requirements.txt
+├── routes
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── entries.py
+│   └── predict.py
+├── soulscribe_env
+│   ├── bin
+│   ├── etc
+│   ├── include
+│   ├── lib
+│   ├── pyvenv.cfg
+│   └── share
+├── streamlit_app.py
+├── streamlit_ui
+│   ├── Home.py
+│   └── Journal.py
+└── utils
+    ├── __init__.py
+    ├── __pycache__
+    ├── emotion_responses.py
+    ├── llm_response.py
+    └── utils.py
+
+17 directories, 25 files

@@ -1,0 +1,15 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Virtual environment (if inside the project)
+soulscribe_env/
+
+# Model files (if large or sensitive)
+models/emotional_final_model2/
+
+# OS files
+.DS_Store
