@@ -50,11 +50,8 @@ git lfs install
 1. Clone the repository:
    ```bash
    git clone https://github.com/Laksha10/SoulScribe---Emotion-Aware-Journaling-Web-App.git
-cd SoulScribe---Emotion-Aware-Journaling-Web-App
-git lfs pull
-
-
-
+   ```
+---
 ## **How to Use SoulScribe**
 
 ### 📝 Sign Up & Login  
