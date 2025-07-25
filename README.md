@@ -74,3 +74,12 @@ Receive alerts when emotional spirals are detected.
 
 ### 🧑‍🤝‍🧑 Support Contact & Email Escalation  
 Configure a trusted support contact. If repeated distress is detected, SoulScribe automatically escalates by sending them an alert email via SendGrid.
+
+## 📄 License
+
+This project is licensed under a **Custom Non-Commercial License**.  
+The source code is provided solely for reference and feedback purposes.  
+Deployment, redistribution, or commercial use is strictly prohibited without written permission.
+
+For licensing inquiries or commercial use, please contact: singlalaksha10@gmail.com
+
