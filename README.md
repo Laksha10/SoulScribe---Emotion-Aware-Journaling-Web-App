@@ -43,7 +43,7 @@ brew install git-lfs
 
 # Initialize Git LFS
 git lfs install
-
+```
 ---
 
 ## **Installation & Setup**
