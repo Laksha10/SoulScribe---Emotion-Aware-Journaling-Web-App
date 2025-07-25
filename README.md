@@ -1,45 +1,79 @@
-# ✨ SoulScribe — Your Personal Emotion-Aware Journal
+# **SoulScribe** 🕊️  
+*A Privacy-First Emotion-Aware Journaling Platform*  
 
-SoulScribe is an intelligent journaling assistant designed to understand your emotions through text, offer thoughtful reflections, and store your entries securely. Whether you're venting, celebrating, or just checking in with yourself, SoulScribe listens, understands, and responds.
-
----
-
-## 🚀 Version 1 Highlights
-
-- 🧠 **Emotion Detection:** Uses a fine-tuned transformer-based model to classify journal entries across multiple emotional categories.
-- 📝 **Smart Journaling:** Generates tailored reflections or empathetic responses based on the detected emotional state.
-- 🗄️ **Cloud Syncing:** Journal entries are stored securely in a Supabase PostgreSQL database.
-- 🛠️ **Modular API Design:** Built with Flask, organized into blueprints for easy expansion and maintenance.
-
-> This is Version 1 of SoulScribe. Performance optimization, additional features (like a richer response engine and frontend polishing), and enhanced database security are currently in progress and are expected to be completed within the next **10 days**.
+SoulScribe is a journaling web application that combines **fine-tuned deep learning models** with a **Flask + PostgreSQL backend** and a **Streamlit-based interactive dashboard**.  
+It helps users **track emotional patterns, visualize emotional arcs, and detect negative spirals** while providing **personalized coping strategies and escalation alerts** when necessary.
 
 ---
 
-## ⚙️ Tech Stack
-
-- **Backend:** Flask + SQLAlchemy  
-- **Database:** Supabase (PostgreSQL)  
-- **ML Model:** Scikit-learn / Transformers  
-- **Deployment-ready:** Clean architecture and environment-based config  
+## **Features**
+- **Emotion-Aware Journaling** – Entries are analyzed using a fine-tuned **RoBERTa‑Large model** (28 emotions) for precise emotion tagging.  
+- **Companion Responses via LLMs** – Context-aware responses generated using **Google Gemini** and **Hugging Face Transformers**, guided by the detected emotions.  
+- **Adaptive Alerts & Escalation** – Tracks negative emotional spirals, triggers **Red Zone alerts**, and escalates to support contacts via **SendGrid email integration**.  
+- **Emotion Arc & Timeline Visualizations** – Visualizes emotional patterns across sessions, including session‑wise emotion tracking and an emotion scoreboard for deeper insights.  
+- **Privacy‑First Design** – Secure user authentication & **PostgreSQL + Supabase backend** for encrypted storage of user data.  
 
 ---
 
-## 🛠️ Setup Instructions
+## **Tech Stack**
+- **Frontend**: Streamlit (interactive dashboards for journaling & analytics)  
+- **Backend**: Flask (REST API), PostgreSQL, Supabase  
+- **ML/NLP**: RoBERTa‑Large (emotion classification), **Google Gemini** & Hugging Face Transformers (for emotion-driven companion responses)  
+- **Integrations**: SendGrid (escalation emails), SQLAlchemy ORM  
+- **Visualization**: Plotly (emotion arc, timeline, and scoreboard)  
+
+---
+
+## **System Architecture**
+- **Frontend**: Streamlit (interactive dashboards, emotion visualizations)  
+- **Backend**: Flask REST API  
+- **Database**: PostgreSQL (hosted via Supabase)  
+- **Modeling**: HuggingFace Transformers (RoBERTa-Large)  
+
+---
+### 📦 Git LFS Setup (Required for Model File)
+
+This project uses [Git Large File Storage (LFS)](https://git-lfs.github.com/) to manage large files like the emotion model (`model_weights.pt`).
+
+Make sure you install and initialize Git LFS **before cloning** the repository:
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/Laksha10/SoulScribe.git
-cd SoulScribe
+# Install Git LFS (macOS example using Homebrew)
+brew install git-lfs
 
-# 2. Set up a virtual environment
-python3 -m venv soulscribe_env
-source soulscribe_env/bin/activate
+# Initialize Git LFS
+git lfs install
 
-# 3. Install dependencies
-pip install -r requirements.txt
+---
 
-# 4. Create a .env file
-# You can refer to .env.example for the necessary variables
+## **Installation & Setup**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Laksha10/SoulScribe---Emotion-Aware-Journaling-Web-App.git
+cd SoulScribe---Emotion-Aware-Journaling-Web-App
+git lfs pull
 
-# 5. Run the API
-python app.py
+
+
+## **How to Use SoulScribe**
+
+### 📝 Sign Up & Login  
+Create a secure account and start your journaling journey.
+
+### 📔 Add Journal Entries  
+Write your thoughts, feelings, and reflections.
+
+### 📊 Track Your Emotional Arc  
+Visualize emotional progression across sessions.
+
+### 🎯 Session Scoreboard  
+Get a session-wise breakdown of emotional states.
+
+### 🧭 Timeline View  
+See thread-wise and session-wise entries at a glance.
+
+### 🚨 Red Zone Alerts  
+Receive alerts when emotional spirals are detected.
+
+### 🧑‍🤝‍🧑 Support Contact & Email Escalation  
+Configure a trusted support contact. If repeated distress is detected, SoulScribe automatically escalates by sending them an alert email via SendGrid.
