@@ -54,26 +54,62 @@ git lfs install
 ---
 ## **How to Use SoulScribe**
 
-### 📝 Sign Up & Login  
-Create a secure account and start your journaling journey.
+#### 🔐 Registration  
+Begin by creating your personal SoulScribe account.
+
+<div style="display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/56e27ca1-0d2e-4cc5-a51d-e15822f3e398" style="width: 45%;" />
+  <img src="https://github.com/user-attachments/assets/6f58f7a5-5499-49cb-b925-7b39d2cb57fe" style="width: 45%;" />
+</div>
+
+
+#### 🔑 Login  
+Securely log in and get started with your journaling dashboard.
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ed6d863c-02c2-4076-96b9-482595a0098c" width="40%" />
+</div>
 
 ### 📔 Add Journal Entries  
 Write your thoughts, feelings, and reflections.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/1e78516c-49fd-406e-867c-e1edca8af6f9" width="50%" />
+</div>
 
 ### 📊 Track Your Emotional Arc  
 Visualize emotional progression across sessions.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/99468214-d176-4913-852b-539f00f86728" width="45%" />
+</div>
+
 
 ### 🎯 Session Scoreboard  
 Get a session-wise breakdown of emotional states.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ecc6dd22-a6ef-4edb-9e98-cd06123a1e36" width="50%" />
+</div>
+
 
 ### 🧭 Timeline View  
 See thread-wise and session-wise entries at a glance.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2c906ea4-5136-4295-932f-3de45c9dc88d" width="50%" />
+</div>
+
 
 ### 🚨 Red Zone Alerts  
 Receive alerts when emotional spirals are detected.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/bc2ca870-83ef-4f90-b0c0-0fb098c9a3e8" width="50%" />
+</div>
+
 
 ### 🧑‍🤝‍🧑 Support Contact & Email Escalation  
 Configure a trusted support contact. If repeated distress is detected, SoulScribe automatically escalates by sending them an alert email via SendGrid.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/afe1f2ab-dae8-406e-9548-fe578cb0b6d1" width="50%" />
+</div>
+
 
 ## 📄 License
 
